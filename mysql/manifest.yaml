@@ -68,7 +68,7 @@ spec:
       - name: mysql
         image: leelakamineni/mysql:v1.0
       nodeSelector:
-        topology.kubernetes.io/zone: us-east-1c  #check your nodes zone
+        topology.kubernetes.io/zone: us-east-1b  #check your nodes zone
         volumeMounts:
         - name: mysql
           mountPath: /var/lib/mysql
